@@ -15,6 +15,7 @@ public class TU {
 	public void process() {
 		Scanner in = new Scanner(System.in);
 		a.process(in.nextInt());
+		in.close();
 	}
 	
 	public static void main(String[] args) {
