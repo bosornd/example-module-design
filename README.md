@@ -1,4 +1,4 @@
-This is a simple project that demonstrates the module design process and architecture documentation.
+This is a simple project that demonstrates the module design process and architecture documentation. This project implements the designed architecture in Java. This helps to understand concept of S/W elements - components, modules and their mappings to code.
 
 ### Object-Oriented Analysis & Design
 The basic object-oriented analysis & design (OOAD) process is as shown in the figure below. Module design has same process and follows object-oriented design principles.
