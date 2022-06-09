@@ -13,7 +13,7 @@ Assume that it is designed as shown in the deployment view in terms of execution
 - Thread B is composed of components M1 and B. M1 gets a request from thread A and requests B to process it. B processes the requested and requests thread C to do more.
 - Thread C is composed of components M2 and C. M2 gets a request from thread B and requests C to process it. C processes the requested to the user.
 
-#### Step 2. Defile Class / Module
+#### Step 2. Define Class / Module
 ![Module Defined](images/define_module.png)
 In basic, components can be mapped to modules. Components U, A, B and C are mapped to modules TU, TA, TB and TC. However, components M1 and M2 have almost identical behavior of getting requests from the other thread and requesting to the internal component to handle them. Components M1 and M2 are mapped to module TM, which means one module TM is instantiated to 2 different components M1 and M2.
 
