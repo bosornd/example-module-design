@@ -17,7 +17,7 @@ Assume that it is designed as shown in the deployment view in terms of execution
 ![Module Defined](images/define_module.png)
 In basic, components can be mapped to modules. Components U, A, B and C are mapped to modules TU, TA, TB and TC. However, components M1 and M2 have almost identical behavior of getting requests from the other thread and requesting to the internal component to handle them. Components M1 and M2 are mapped to module TM, which means one module TM is instantiated to 2 different components M1 and M2.
 
-#### Step 3. Refile Class / Module
+#### Step 3. Refine Class / Module
 ![Module Refined](images/refine_module.png)
 5 modules TU, TM, TA, TB and TC defined in step 2 should be implemented. Module architecture should be refined to enhance maintainability.
 - Modules TA, TB and TC are programs that implement request processing. Here, the common part is extracted into a separate module TP, which is extended to implement modules TA, TB and TC.
