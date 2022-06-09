@@ -40,12 +40,12 @@ The SW Architecture document consists of the following table of contents.
 #### Chapter 1. Overview
 In this chapter, the system should be defined clearly. The system is specified as a black box. Internal components are not in the system definition.
 
-![System Definition](images/system_definition.png)
+<img src="images/system_definition.png" width="20%" alt="System Definition"></img>
 
 #### Chapter 2. Requirements
 In this chapter, the more detail requirement should be specified. It's better to specify what the system should do with the request.
 
-![Requirements](images/requirement.png)
+<img src="images/requirement.png" width="25%" alt="Requirements"></img>
 
 #### Chapter 3. Architecture
 In this chapter, the designed architecture in terms of execution (as shown in the below view) should be explained - how the system works.
