@@ -56,17 +56,21 @@ When describing an architecture which is complex, it is better to first describe
 
 The architecture designed in terms of execution is a multi-threaded system with 3 threads - threads TA, TB and TC.
 
-![Deployment View](images/deployment.png)
+<img src="images/deployment.png" width="75%" alt="Deployment View"></img>
 
 The more detail system behavior can be described using a sequence diagram as shown below.
 
-![Sequence Diagram](images/deployment_sequence.png)
+<img src="images/deployment_sequence.png" width="75%" alt="Sequence Diagram"></img>
 
 ##### 3.1 thread TA
 
-In section 3.1, the internals of thread TA can be described. Thread TA is composed of components U and A. Component U gets input from the user and requests component A to handle it. Component A processes the request and requests thread B to do more. The detail flow can be described using a sequence diagram as shown below.
+In section 3.1, the internals of thread TA can be described. Thread TA is composed of components U and A.
 
-![Sequence Diagram](images/threadA_sequence.png)
+<img src="images/threadA.png" width="50%" alt="Thread TA"></img>
+
+Component U gets input from the user and requests component A to handle it. Component A processes the request and requests thread B to do more. The detail flow can be described using a sequence diagram as shown below.
+
+<img src="images/threadA_sequence.png" width="75%" alt="Sequence Diagram"></img>
 
 #### Chapter 4. Module
 In this chapter, the designed architecture in terms of development should be explained - how the system should be implemented.
