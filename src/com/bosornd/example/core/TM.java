@@ -16,11 +16,11 @@ public class TM extends Thread {
 	
 	public void run() {
 		while(!requested) {
-            try {
-				Thread.sleep(100);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+        	try {
+			Thread.sleep(100);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
         }
 		
 		p.process(number);
