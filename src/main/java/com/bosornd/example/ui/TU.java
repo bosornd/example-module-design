@@ -6,15 +6,15 @@ import com.bosornd.example.core.*;
 import com.bosornd.example.logic.*;
 
 public class TU {
-    TA a;
+    TP p;
     
-    public TU(TA a) {
-        this.a = a;
+    public TU(TP p) {
+        this.p = p;
     }
     
     public void process() {
         Scanner in = new Scanner(System.in);
-        a.process(in.nextInt());
+        p.process(in.nextInt());
         in.close();
     }
     
